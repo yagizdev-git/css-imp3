@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Poppins" ,sans-serif;
+  background-color: whitesmoke;
+  color: white;
+  background-image: url("img/hector-falcon-doqTQhFXQGQ-unsplash.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* .container {
+  position: relative;
+  width: auto;
+  padding: 15px 35px;
+  height: auto;
+} */
+
+.page-title h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  width: auto;
+}
+
+.page-title p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  margin-bottom: 50px;
+}
+
+.container #survey-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #193019;
+  width: 100vw;
+  max-width: 720px;
+  padding: 30px;
+}
+
+#survey-form label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+#name, #email, #number, #dropdown {
+  width: 100%;
+  height: 38px;
+  margin-bottom: 15px;
+}
+
+textarea {
+  width: 100%;
+}
+
+input { 
+  font-size: 17px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+input::placeholder {
+  font-style: italic;
+}
+
+select {
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+option:not(:first-of-type) {
+  font-style: italic;
+}
+
+option:disabled {
+  font-style: italic;
+}
+
+p {
+  font-size: 18px;
+}
+
+#radio-descp {
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+
+input[type='radio'] {
+  transform: scale(1.5);
+  margin-right: 8px;
+}
+
+.checkbox-descp {
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+
+.form-group p label {
+  margin-left: 8px;
+}
+
+#sug-descp {
+  margin-top: 30px;
+  margin-bottom: 6px;
+}
+
+textarea::placeholder {
+  font-size: 17px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+textarea {
+  padding-left: 10px;
+  padding-top: 6px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#submit {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  background-color: green;
+  border: none;
+  cursor: pointer;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#submit:hover {
+  background-color: rgb(0, 93, 0);
+  font-size: 21.5px;
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 12px;
+  margin: 25px;
+  margin-bottom: 9px;
+}
+
+#name-label i, #email-label i {
+  color: rgb(254, 71, 71);
+  font-size: 14px;
+}
